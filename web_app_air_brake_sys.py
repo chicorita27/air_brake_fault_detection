@@ -9,7 +9,7 @@ import numpy as np
 import streamlit as st
 
 # Load the trained model
-air_brake_model = pickle.load(open('C:/Users/91701/Downloads/air_brake_model.sav', 'rb'))
+air_brake_model = pickle.load(open('air_brake_model.sav', 'rb'))
 
 # Prediction function
 def fault_prediction(my_reading):
@@ -71,3 +71,4 @@ def main():
 
 if __name__ == '__main__':
     main()
+
